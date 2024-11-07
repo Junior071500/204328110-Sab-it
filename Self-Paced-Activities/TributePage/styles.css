@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.organicfacts.net/wp-content/uploads/peanutbutter1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+#main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title Section */
+#title-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #2c3e50;
+}
+
+#description {
+    font-size: 1.2em;
+    color:black;
+}
+
+/* Image Section */
+#img-div {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    font-style: italic;
+    color:black;
+    margin-top: 10px;
+}
+
+/* Tribute Information Section */
+#tribute-info {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color:white ;
+}
+
+/* Link to Additional Information */
+#tribute-link {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 55px 70px;
+    background-image: url('https://i.postimg.cc/bvZ7tWD1/th-removebg-preview.jpg');
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#tribute-link:hover {
+    background-color: #3498db;
+}
+
+#title-section2 {
+    text-align: left;
+    margin-bottom: 30px;
+    color:white ;
+}
